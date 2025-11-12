@@ -1,19 +1,3 @@
-/*
- * File: CarRentalServer.java
- * Runs a self-contained Java web server for the "DriveNow" Car Rental System.
- *
- * VERSION 2:
- * - Added Customer registration (/register) and login (/login)
- * - Persists customers to 'customers.dat'
- * - Changed currency to Bangladeshi Taka (Tk)
- *
- * How to run:
- * 1. Save this file as CarRentalServer.java
- * 2. Save the CSS file in the same directory as style.css
- * 3. Compile: javac CarRentalServer.java
- * 4. Run:     java CarRentalServer
- * 5. Open your browser to: http://localhost:8080
- */
 
 // Imports for web server
 import com.sun.net.httpserver.HttpServer;
@@ -829,4 +813,5 @@ public class CarRentalServer {
             os.write(bytes);
         }
     }
+
 }
