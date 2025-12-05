@@ -219,6 +219,8 @@ public class CarRentalServer {
                     "<div class=\"car-list\">" + carListHtml.toString() + "</div></section>" +
                     "<section id=\"booking\" class=\"booking-section\"><h2>Book a Car</h2><form action=\"/book\" method=\"post\">" +
                     "<select name=\"car\" required>" + carOptionsHtml.toString() + "</select>" +
+                    "<input type=\"text\" name=\"email\" placeholder=\"Email\" value=\""+ userEmail +"\" required>" +
+                    "<input type=\"text\" name=\"phone\" placeholder=\"Phone\" required>" +
                     "<input type=\"date\" name=\"date\" placeholder=\"Start Date\" required>" +
                     "<input type=\"number\" name=\"days\" placeholder=\"Days\" min=\"1\" required>" +
                     "<label><input type=\"checkbox\" name=\"advancePaid\" value=\"true\"> Pay 20% Advance</label>" +
